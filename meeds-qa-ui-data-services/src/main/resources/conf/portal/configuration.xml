@@ -29,6 +29,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
       <set-method>addListenerPlugin</set-method>
       <type>org.exoplatform.services.organization.OrganizationDatabaseInitializer</type>
       <description>this listener populate organization data for the first launch</description>
+      <priority>50</priority>
       <init-params>
         <value-param>
           <name>checkDatabaseAlgorithm</name>
