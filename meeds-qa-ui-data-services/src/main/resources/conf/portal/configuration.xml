@@ -64,7 +64,7 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
                       <string>${meeds.qa.ui.admin.lastName:User}</string>
                     </field>
                     <field name="email">
-                      <string>${meeds.qa.ui.admin.email:admin@localhost}</string>
+                      <string>${meeds.qa.ui.admin.email:admin@localhost.com}</string>
                     </field>
                     <field name="groups">
                       <string>${meeds.qa.ui.admin.groups:*:/platform/administrators,*:/platform/rewarding,*:/platform/analytics}</string>
