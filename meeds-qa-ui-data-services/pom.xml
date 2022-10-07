@@ -20,7 +20,7 @@
   <parent>
     <groupId>io.meeds.meeds-qa-ui-data</groupId>
     <artifactId>meeds-qa-ui-data-parent</artifactId>
-    <version>1.0.x-SNAPSHOT</version>
+    <version>1.0.0-M01</version>
   </parent>
   <artifactId>meeds-qa-ui-data-services</artifactId>
   <name>Meeds Test Suite Data - Services</name>

@@ -25,7 +25,7 @@
   </parent>
   <groupId>io.meeds.meeds-qa-ui-data</groupId>
   <artifactId>meeds-qa-ui-data-parent</artifactId>
-  <version>1.0.x-SNAPSHOT</version>
+  <version>1.0.0-M01</version>
   <packaging>pom</packaging>
   <name>Meeds Test Suite Data - Parent</name>
   <description>Meeds Test Suite Data Injection Addon</description>
@@ -36,7 +36,7 @@
   <scm>
     <connection>scm:git:git://github.com/meeds-io/meeds-qa-ui-data.git</connection>
     <developerConnection>scm:git:git@github.com:meeds-io/meeds-qa-ui-data.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>1.0.0-M01</tag>
     <url>https://github.com/meeds-io/meeds-qa-ui-data</url>
   </scm>
   <properties>
