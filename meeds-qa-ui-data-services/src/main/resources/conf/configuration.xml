@@ -23,13 +23,21 @@ Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
    xmlns="http://www.exoplatform.org/xml/ns/kernel_1_2.xsd">
 
   <component>
-    <key>SpaceAdministratorsProperties</key>
+    <key>QA UI Data Properties</key>
     <type>org.exoplatform.container.ExtendedPropertyConfigurator</type>
     <init-params>
       <properties-param>
-        <name>SpaceAdministratorsProperties</name>
+        <name>QA UI Data Properties</name>
         <description>Extend Space Administrators to portal administrators</description>
         <property name="social.spaces.administrators" value="*:/platform/administrators" />
+        <property name="exo.app-center.tasks.override" value="true" />
+        <property name="exo.app-center.tasks.override-mode" value="overwrite" />
+        <property name="exo.app-center.perkstore.override" value="true" />
+        <property name="exo.app-center.perkstore.override-mode" value="overwrite" />
+        <property name="exo.app-center.challenges.override" value="true" />
+        <property name="exo.app-center.challenges.override-mode" value="overwrite" />
+        <property name="exo.app-center.wallet.override" value="true" />
+        <property name="exo.app-center.wallet.override-mode" value="overwrite" />
       </properties-param>
     </init-params>
   </component>
